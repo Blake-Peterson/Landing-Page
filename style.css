@@ -1,3 +1,15 @@
+body{
+    background-color:#1f2937;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
 .footer, .hero{
     background-color: #1f2937;
 }
@@ -23,7 +35,11 @@ button{
 }
 
 .information{
-
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .information.info-header{
@@ -32,13 +48,27 @@ button{
     color: #1f2937;
 }
 
+.info-container{
+    display:flex;
+    flex-wrap: wrap;
+    padding:48px;
+    gap:32px;
+
+}
+
 .box-info{
-    width: 300px;
-    height: auto;
+    display:flex;
+    flex-wrap: wrap;
 }
 
 .quote{
     background-color: #e5e7eb;
+    font-size: 36px;
+    font-family: light italic;
+    color: #1f2937;
+    padding:0;
+    margin:0;
+
 }
 
 .call-to-action{
@@ -46,14 +76,10 @@ button{
 }
 
 .footer{
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-ul{
-    list-style-type: none;
-}
 
-a{
 
-    text-decoration: none;
-}
