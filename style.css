@@ -1,0 +1,59 @@
+.footer, .hero{
+    background-color: #1f2937;
+}
+
+.hero{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color:#f9faf8;
+}   
+
+.header.links{
+    font-size: 18px;
+    color:#e5e7eb;
+}
+
+.header.logo{
+    font-size: 24px;
+    color:#f9faf8;
+}
+
+button{
+    background-color:#3882f6;
+}
+
+.information{
+
+}
+
+.information.info-header{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+}
+
+.box-info{
+    width: 300px;
+    height: auto;
+}
+
+.quote{
+    background-color: #e5e7eb;
+}
+
+.call-to-action{
+    background-color: #3882f6;
+}
+
+.footer{
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+
+    text-decoration: none;
+}
