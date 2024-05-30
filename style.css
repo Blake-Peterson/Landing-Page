@@ -1,5 +1,13 @@
 ul{
     list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    font-size:24px;
+    align-items: right;
+}
+
+li{
+    padding:16px;
 }
 
 a{
@@ -36,24 +44,18 @@ button{
 }
 
 .header{
-    display:flex;
-    flex-wrap: row;
+    display: flex;
+}
+
 .intro-text{
-    display:flex;
 
 }
 
 .hero-main-text{
-    display:flex;
-    flex-direction: column;
+
 }
 
 .information{
-    display:flex;
-    flex-direction:column;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
 }
 
 .information.info-header{
@@ -63,16 +65,10 @@ button{
 }
 
 .info-container{
-    display:flex;
-    flex-wrap: wrap;
-    padding:48px;
-    gap:32px;
 
 }
 
 .box-info{
-    display:flex;
-    flex-wrap: wrap;
     border:8px;
     border-color: #3882f6;
 }
@@ -88,12 +84,6 @@ button{
     font-size: 36px;
     font-family: light italic;
     color: #1f2937;
-    padding:0;
-    margin:0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
 }
 
 .call-to-action{
@@ -101,9 +91,6 @@ button{
 }
 
 .footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 
