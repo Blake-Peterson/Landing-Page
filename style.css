@@ -45,6 +45,7 @@ button{
     width: 128px;
     gap:8px;
     border:8px;
+    border-color:#e5e7eb;
 }
 
 .header{
@@ -78,6 +79,7 @@ button{
 
 .information{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     padding:0;
 }
@@ -89,11 +91,15 @@ button{
 }
 
 .info-container{
-
+    display: flex;
+    flex-direction: row;
+    margin: 256px;
 }
 
 .box-info{
-    border:8px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
     border-color: #3882f6;
 }
 
@@ -111,13 +117,33 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding:8px;
     align-items: center;
+    padding:
+
+}
+
+.quote.p.span{
+    margin-left: auto;
+    margin-right: 0;
 }
 
 .call-to-action{
     background-color: #3882f6;
+    margin: 128px  256px;
+    display:flex;
+    flex-direction: row;
+    color:#e5e7eb;
+    justify-content: center;
+    align-items: center;
 }
+
+.action-box{
+    display:flex;
+    flex-direction: column;
+    padding:0;
+}
+
+
 
 .footer{
 }
