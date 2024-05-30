@@ -34,12 +34,18 @@ button{
 .introduction{
 
 }
+
+.header{
+    display:flex;
+    flex-wrap: row;
 .intro-text{
-    
+    display:flex;
+
 }
 
 .hero-main-text{
-
+    display:flex;
+    flex-direction: column;
 }
 
 .information{
@@ -72,9 +78,9 @@ button{
 }
 
 .logo{
-    width:120px;
-    height: auto;
-    margin:0;
+    width:60px;
+    height: 60px;
+
 }
 
 .quote{
