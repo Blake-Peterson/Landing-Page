@@ -57,6 +57,7 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding:8px;
     gap:16px;
     margin: 164px;
 }
@@ -64,10 +65,15 @@ button{
 .intro-text{
     display:flex;
     flex-direction: column;
+
 }
 
 .hero-main-text{
     font-weight: bolder;    
+}
+
+.hero-secondary-text{
+
 }
 
 .photo{
@@ -118,7 +124,6 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding:
 
 }
 
@@ -146,6 +151,11 @@ button{
 
 
 .footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    color:#e5e7eb;
 }
 
 
