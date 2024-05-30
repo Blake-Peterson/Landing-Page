@@ -2,8 +2,9 @@ ul{
     list-style-type: none;
     display:flex;
     flex-direction: row;
-    font-size:24px;
-    align-items: right;
+    font-size:16px;
+    margin-left: auto;
+    margin-right: 0;
 }
 
 li{
@@ -22,7 +23,9 @@ a{
     font-size: 48px;
     font-weight: extra-bold;
     color:#f9faf8;
-    
+    padding:0;
+    gap:0;
+    border:0;
 }   
 
 .header.links{
@@ -37,25 +40,46 @@ a{
 
 button{
     background-color:#3882f6;
-}
-
-.introduction{
-
+    color:#e5e7eb;
+    height: 32px;
+    width: 128px;
+    gap:8px;
+    border:8px;
 }
 
 .header{
     display: flex;
+
+}
+
+.introduction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:16px;
+    margin: 164px;
 }
 
 .intro-text{
-
+    display:flex;
+    flex-direction: column;
 }
 
 .hero-main-text{
-
+    font-weight: bolder;    
 }
 
+.photo{
+    height: 150px;
+    width:150px;
+}
+
+
+
 .information{
+    display: flex;
+    justify-content: center;
+    padding:0;
 }
 
 .information.info-header{
@@ -84,6 +108,11 @@ button{
     font-size: 36px;
     font-family: light italic;
     color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:8px;
+    align-items: center;
 }
 
 .call-to-action{
