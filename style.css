@@ -16,8 +16,8 @@ a{
 }
 
 img{
-    width:156px;
-    height: 156px;
+    width: 200px;
+    height: 200px;
     border-radius: 10%;
 }
 
@@ -28,7 +28,6 @@ img{
 .header{
     display: flex;
     justify-content: space-between;
-
 }
 
 .header, .introduction{
@@ -50,7 +49,8 @@ img{
 }
 
 .intro-text{
-    padding: 24px;
+    margin: 24px;
+
 }
 
 .hero-main-text{
@@ -69,18 +69,18 @@ button{
     background-color:#3882f6;
     border:#e5e7eb;
     color:#e5e7eb;
-    border-radius: 8%;
+    border-radius: 10%;
     padding-left:40px;
     padding-right: 40px;
     padding-top: 8px;
     padding-bottom:8px;
+    font-weight: bold;
 }
 
 
 
 .information{
     font-size: 36px;
-    font-weight: bolder;
     color: #1f2937;
     margin:16px;
 }
@@ -88,26 +88,36 @@ button{
 .info-header{
     display:flex;
     justify-content: center;
+    font-weight: bolder;
     padding:16px;
 }
 
 .info-container{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
 
 }
 
 .box-info{
-    width: 200px;
+    width: 120px;
     height: auto;
     flex-direction: column;
     display: flex;
+    flex-wrap: wrap;
+    margin-bottom:60px;
 }
 
 .box-info img{
-    border:#3882f6;
+    border-color:#3882f6;
+}
 
+.box-info p{
+    font-weight: lighter;
+    font-size: 18px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .quote{
