@@ -7,12 +7,14 @@
 ul{
     list-style-type: none;
     display:flex;
-    justify-content: right;
+    flex-direction: row;
+
 }
 
 a{
     text-decoration: none;
     color:#F9faf8;
+    padding:8px;
 }
 
 img{
@@ -28,29 +30,29 @@ img{
 .header{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 36px;
 }
 
 .header, .introduction{
     margin-left: 120px;
-    /*margin-right: 120px;*/
+    margin-right: 120px;
     padding:16px;
-    margin-bottom:80px;
-}
-
-.header.logo{
-    font-size:24px;
-    color: #F9faf8;
 }
 
 .introduction{
     display:flex;
     flex-direction:row;
     margin-bottom: 90px;
+    padding-bottom: 48px;
 }
 
 .intro-text{
     margin: 24px;
+}
 
+.photo{
+    width: 600px;
+    height: auto;
 }
 
 .hero-main-text{
@@ -82,24 +84,26 @@ button{
     font-size: 36px;
     color: #1f2937;
     margin:16px;
+    
 }
 
 .info-header{
     display:flex;
     justify-content: center;
     font-weight: bolder;
-    padding:16px;
+    padding:8px;
 }
 
 .info-container{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-
+    justify-content: space-between;
+    padding:48px;
+    margin: 80px 320px;
 }
 
 .box-info{
-    width: 120px;
+    width: 80px;
     height: auto;
     flex-direction: column;
     display: flex;
