@@ -32,7 +32,7 @@ img{
 
 .header, .introduction{
     margin-left: 120px;
-    margin-right: 120px;
+    /*margin-right: 120px;*/
     padding:16px;
     margin-bottom:80px;
 }
@@ -122,17 +122,24 @@ button{
 
 .quote{
     background-color: #e5e7eb;
-    padding:16px;
+    padding:8px;
 }
 
 .quote-container{
     font-size: 36px;
     font: light italic;
     color: #1f2937;
+    padding: 64px 32px;
 }
 
 .quote-container p{
     display:flex;
+    flex-wrap: wrap;
+    margin: 32px 400px 0px;
+}
+
+.author{
+    display: flex;
     justify-content: right;
 }
 
