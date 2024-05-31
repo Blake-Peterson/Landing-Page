@@ -67,17 +67,16 @@ img{
 
 button{
     background-color:#3882f6;
-    border:#e5e7eb;
     color:#e5e7eb;
-    border-radius: 10%;
     padding-left:40px;
     padding-right: 40px;
     padding-top: 8px;
     padding-bottom:8px;
     font-weight: bold;
+    height: 48px;
+    width:auto;
+    border-radius: 16px;
 }
-
-
 
 .information{
     font-size: 36px;
@@ -144,28 +143,31 @@ button{
 }
 
 .call-to-action{
-    background-color: #3882f6;
-    margin:48px;
+
     display: flex;
-    flex-direction: row;
-    padding:8px;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+
 }
 
-.call-to-action button{
+.action-container{
+    background-color: #3882f6;
     display: flex;
-    flex-direction: right;
+    flex-direction: row;
+    color:white;
+    padding: 20px 160px;
     justify-content: center;
+    align-items: center;
+    margin:16px;
+    border-radius: 16px;
 }
 
 .action-box{
+    font-size: 24px;
     padding:32px;
     border-radius: 10%;
-
 } 
-
-.action-box.action{
-    font-weight: bolder;
-}
 
 .footer{
     display:flex;
